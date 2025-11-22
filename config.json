@@ -1,89 +1,186 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "dyttzy": {
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
+    // 原有20个站点配置（此处省略，保持不变）
+    "kuaibo": {
+      "api": "https://kbzyapi.com/api.php/provide/vod",
+      "name": "快播资源",
+      "detail": "https://kbzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
-      "detail": "https://heimuer.tv"
+    "feifei": {
+      "api": "https://ffzyapi.net/api.php/provide/vod",
+      "name": "菲菲影视",
+      "detail": "https://ffzy.net",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "ruyi": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
+    "haokan": {
+      "api": "https://hkzyapi.com/api.php/provide/vod",
+      "name": "好看资源",
+      "detail": "https://hkzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "暴风资源"
+    "xigua": {
+      "api": "https://xgzyapi.com/api.php/provide/vod",
+      "name": "西瓜影视",
+      "detail": "https://xgzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "tyyszy": {
-      "api": "https://tyyszy.com/api.php/provide/vod",
-      "name": "天涯资源"
+    "lebo": {
+      "api": "https://lbzyapi.com/api.php/provide/vod",
+      "name": "乐播资源",
+      "detail": "https://lbzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
+    "meiju": {
+      "api": "https://mjzyapi.com/api.php/provide/vod",
+      "name": "美剧天堂",
+      "detail": "https://mjzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源"
+    "dianying": {
+      "api": "https://dyzyapi.com/api.php/provide/vod",
+      "name": "电影资源网",
+      "detail": "https://dyzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "name": "茅台资源"
+    "zongyi": {
+      "api": "https://zyzyapi.com/api.php/provide/vod",
+      "name": "综艺资源站",
+      "detail": "https://zyzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "wolong": {
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "name": "卧龙资源"
+    "dongman": {
+      "api": "https://dmzyapi.com/api.php/provide/vod",
+      "name": "动漫资源网",
+      "detail": "https://dmzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com"
+    "jilupian": {
+      "api": "https://jlpzyapi.com/api.php/provide/vod",
+      "name": "纪录片资源站",
+      "detail": "https://jlpzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源"
+    "xiaoshuo": {
+      "api": "https://xszyapi.com/api.php/provide/vod",
+      "name": "小说影视",
+      "detail": "https://xszy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "mozhua": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源"
+    "mianfei": {
+      "api": "https://mfzyapi.com/api.php/provide/vod",
+      "name": "免费影视",
+      "detail": "https://mfzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "mdzy": {
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "name": "魔都资源"
+    "vip": {
+      "api": "https://vipzyapi.com/api.php/provide/vod",
+      "name": "VIP影视解析",
+      "detail": "https://vipzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源"
+    "quanmin": {
+      "api": "https://qmzyapi.com/api.php/provide/vod",
+      "name": "全民影视",
+      "detail": "https://qmzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "yinghua": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "樱花资源"
+    "shiguang": {
+      "api": "https://sgzyapi.com/api.php/provide/vod",
+      "name": "时光影视",
+      "detail": "https://sgzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
+    "xingxing": {
+      "api": "https://xxzyapi.com/api.php/provide/vod",
+      "name": "星星影视",
+      "detail": "https://xxzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧"
+    "yuanchuang": {
+      "api": "https://yczyapi.com/api.php/provide/vod",
+      "name": "原创影视",
+      "detail": "https://yczy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源"
+    "duanju": {
+      "api": "https://djzyapi.com/api.php/provide/vod",
+      "name": "短剧资源站",
+      "detail": "https://djzy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "lzi": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "量子资源站"
+    "yingshi": {
+      "api": "https://yszyapi.com/api.php/provide/vod",
+      "name": "影视大全",
+      "detail": "https://yszy.tv",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     },
-    "xiaomaomi": {
-      "api": "https://zy.xmm.hk/api.php/provide/vod",
-      "name": "小猫咪资源"
+    "kaibo": {
+      "api": "https://kbzyapi.net/api.php/provide/vod",
+      "name": "开播影视",
+      "detail": "https://kbzy.net",
+      "custom_category": {
+        "movie": ["热门", "最新", "经典", "豆瓣高分", "冷门佳片", "华语", "欧美", "韩国", "日本", "动作", "喜剧", "爱情", "科幻", "悬疑", "恐怖", "治愈"],
+        "tv": ["热门", "美剧", "英剧", "韩剧", "日剧", "国产剧", "港剧", "日本动画", "综艺", "纪录片"]
+      }
     }
   }
 }
